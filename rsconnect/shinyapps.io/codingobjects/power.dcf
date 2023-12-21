@@ -1,0 +1,13 @@
+name: power
+title: power
+username: codingobjects
+account: codingobjects
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10835386
+bundleId:
+url: https://codingobjects.shinyapps.io/power/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: R/app_config.R|R/app.R|R/fct_helpers.R|R/server.R|R/ui.R

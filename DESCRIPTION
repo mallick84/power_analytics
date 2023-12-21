@@ -1,0 +1,36 @@
+Package: Power
+Title: An package for analyzing data with natural language.
+Version: 0.0.0.9000
+Authors@R: person('Avijit', 'Mallick', email = 'avijit.mallick@codingobjects.in', role = c('cre', 'aut'))
+Description: Uses OpenAI
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    tippy,
+    gridExtra,
+    openai,
+    DT,
+    shinybusy,
+    shinyjs,
+    plotly,
+    summarytools,
+    DataExplorer,
+    corrplot,
+    tableone,
+    GGally,
+    janitor,
+    RSQLite,
+    canvasXpress,
+    moments
+Depends:
+    tidyverse
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
